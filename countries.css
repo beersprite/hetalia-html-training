@@ -1,0 +1,46 @@
+* {}
+body {
+    margin: 50px;
+    font-family: Consolas;
+    color: rgb(28, 28, 28);
+    background-color: #8ec0c0;
+    max-height: fit-content;
+    align-content: center;
+}
+.sol{
+    width: 40px;
+    height: 40px;
+}
+.flex{
+    display: flex;
+}
+.flex-sol{
+    justify-content: center;
+    flex-direction: row;
+}
+.bandeira-e-personagem {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imagem-e-legenda {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.listra-azul{
+    background-color: cornflowerblue;
+    height: 40px;
+    width: 250px;
+}
+.listra-branca{
+    background-color: white;
+    height: 40px;
+    width: 250px;
+}
+
+.fundo {
+    padding: 50px;
+    background-color: antiquewhite;
+    width: 600px;
+}
